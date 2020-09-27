@@ -1,0 +1,17 @@
+void run_serial_euclid(float **, float **, float **, int, int, int);
+void run_para_euclid(float **, float **, float **, int, int, int);
+void run_serial_manhattan(float **, float **, float **, int, int, int);
+void run_para_manhattan(float **, float **, float **, int, int, int);
+void run_serial_qsort(float **, int **, int, int, int);
+void run_para_qsort_sections(float **, int **, int, int, int);
+void run_para_qsort_tasks(float **, int **, int, int, int);
+void run_para_qsort_sections_low(float **, int **, int, int, int);
+void run_para_qsort_tasks_low(float **, int **, int, int, int);
+void run_serial_mergesort(float **, int **, int, int, int);
+void run_para_mergesort_sections(float **, int **, int, int, int);
+void run_para_mergesort_tasks(float **, int **, int, int, int);
+void run_para_mergesort_sections_low(float **, int **, int, int, int);
+void run_para_mergesort_tasks_low(float **, int **, int, int, int);
+void run_serial_bitonicsort(float **, int **, int, int, int);
+void run_para_bitonicsort_sections(float **, int **, int, int, int);
+void run_para_bitonicsort_tasks(float **, int **, int, int, int);
